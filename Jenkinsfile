@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "cvaa/petclinic2"
+        registry = "kavyathallapelli/petclinic2"
         registryCredential = "DOCK_CRED_CVA"
         dockerImage = ''
         mavenHome = tool name: "Maven3", type: "maven"
